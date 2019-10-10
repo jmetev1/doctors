@@ -1,5 +1,26 @@
+
+.left {
+  border: 5px solid red;
+  flex: 1 1 auto;
+}
+.right {
+  flex: 1 1 50%;
+  border: 5px solid red;
+}
+.wrapper {
+  display: flex;
+}
 .App {
+  display: flex;
   text-align: center;
+  width: 600px;
+  margin: auto;
+  margin-top: 150px;
+  flex-flow: row wrap;
+}
+
+.selected {
+  background: blue
 }
 
 .App-logo {
@@ -8,14 +29,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: auto;
+  width: 300px;
 }
 
 .App-link {
